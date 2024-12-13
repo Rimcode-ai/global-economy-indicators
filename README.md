@@ -63,7 +63,7 @@ XGBoost emerged as the top performer among classification models due to its:
 
 ## Model Performance
 
-### Precision and Recall Comparison
+### Accuracy
 ![Model Performance](images/Model_Performance.png)
 
 
