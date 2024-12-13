@@ -39,7 +39,6 @@ Classification: The best-performing model in terms of F1-score and ROC-AUC indic
 Regression: The model with the lowest MSE is ideal for predicting continuous variables like GDP.
 Clustering: Analyze the cluster distributions and ensure meaningful groupings that align with the data's underlying patterns.
 
-
 ### Why Classification Models Are Best Suited for This Project:
 The primary goal of this project is to classify companies as financially stable or unstable, making classification models more appropriate. These models focus on discrete output predictions, allowing for clear categorization, unlike regression models, which are better suited for continuous target variables. Regression models were included to explore relationships but lacked the categorical precision needed for this analysis.
 
@@ -48,7 +47,6 @@ Among the classification models, XGBoost outperformed others due to its:
 1. Ability to handle imbalanced datasets effectively.
 2. Robust feature importance evaluation.
 3. Superior accuracy and F1-scores compared to other models.
-
 
 ### Insights on XGBoost Performance:
 XGBoost emerged as the best-performing model due to:
@@ -78,21 +76,22 @@ XGBoost emerged as the best-performing model due to:
 
 These enhancements would elevate the project, making it more robust, actionable, and applicable in real-world corporate financial analysis.
 
-
-
-**Run the Project:**
+## Run the Project
 
 1. Clone the project:
+   ```bash
    git clone <repository-url>
    cd <project-directory>
+   ```
 
 2. Install all the libraries from requirements.txt:
+   ```bash
    pip install -r requirements.txt
+   ```
 
 3. Run the .ipynb files and analyze the Model analysis in detail:
    - Activate the Python environment if necessary.
    - Launch Jupyter Notebook:
+     ```bash
      jupyter notebook
-
-
-
+     ```
