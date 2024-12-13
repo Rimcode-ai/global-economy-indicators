@@ -61,6 +61,13 @@ XGBoost emerged as the top performer among classification models due to its:
 2. **Noise Resilience**: Performs well in noisy datasets.
 3. **Feature Importance Analysis**: Highlights critical financial indicators.
 
+## Model Performance
+
+### Precision and Recall Comparison
+![Model Performance](images/Model_Performance.png)
+
+
+
 ## Future Enhancements
 
 1. **Integrate Additional Data Sources**:
