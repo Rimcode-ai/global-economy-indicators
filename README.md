@@ -78,16 +78,21 @@ XGBoost emerged as the best-performing model due to:
 
 These enhancements would elevate the project, making it more robust, actionable, and applicable in real-world corporate financial analysis.
 
+
+
 **Run the Project:**
-git clone the project:
-git clone <repository-url>
-cd <project-directory>
 
-install all the libraries from requirements.txt:
-pip install -r requirements.txt
+1. Clone the project:
+   git clone <repository-url>
+   cd <project-directory>
 
-Run the .ipynb files and analyze the Model analysis in detail:
-Activate the Python environment if necessary and launch Jupyter Notebook:
-jupyter notebook
+2. Install all the libraries from requirements.txt:
+   pip install -r requirements.txt
+
+3. Run the .ipynb files and analyze the Model analysis in detail:
+   - Activate the Python environment if necessary.
+   - Launch Jupyter Notebook:
+     jupyter notebook
+
 
 
