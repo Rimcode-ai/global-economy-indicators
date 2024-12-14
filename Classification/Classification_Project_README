@@ -1,0 +1,72 @@
+# Analysis of Country and Currency in Global Economic Indicators Dataset
+
+## Project Definition
+The dataset contains global economic indicators for various countries over time, including both numeric and non-numeric attributes. Non-numeric columns like country names and currency types can provide valuable insights into regional economic trends, currency distributions, and country-specific factors influencing the economy. However, these attributes are often overlooked in quantitative analyses. This project aims to explore and analyze the non-numeric data to identify patterns, correlations, and actionable insights.
+
+---
+
+## Problem Statement
+While numeric data such as GDP and GNI are frequently analyzed for economic insights, non-numeric attributes like countries and currencies are often underutilized. These attributes hold the potential to:
+
+- Highlight regional economic trends.
+- Explore the diversity and distribution of currencies.
+- Understand country-specific economic behaviors.
+
+This project seeks to bridge this gap by conducting a detailed analysis of the non-numeric columns, uncovering relationships between these attributes and numeric economic indicators.
+
+---
+
+## Objective
+To analyze and interpret non-numeric columns (e.g., Country, Currency) in the dataset to:
+
+1. Uncover regional or categorical economic trends.
+2. Assess the diversity and distribution of currencies.
+3. Identify relationships between categorical attributes (e.g., Country, Currency) and numeric indicators like GDP and GNI.
+4. Support data-driven decision-making for macroeconomic strategies and policy development.
+
+---
+
+## Key Analysis Questions
+Below are ten guiding questions for the analysis:
+
+1. **Country-level Trends**: What are the top 10 countries with the highest average GDP and GNI over the available years? Are there notable trends or patterns across regions?
+   
+2. **Currency Distribution**: How is the dataset's Currency column distributed across countries? Are there any predominant currencies or regions with unique currencies?
+
+3. **Regional Analysis**: Do certain regions (inferred from Country) show distinct economic behaviors, such as higher reliance on agriculture versus manufacturing?
+
+4. **Temporal Analysis**: How do economic trends (like GNI or GDP) change over time for specific countries or regions? Are there spikes or dips that can be explained by external events?
+
+5. **Economic Indicator Correlation**: Are there correlations between the non-numeric data (e.g., Country, Currency) and major economic indicators such as GDP or imports/exports?
+
+6. **Categorical Impact**: Does the type of currency used significantly impact economic growth (e.g., GDP per capita)?
+
+7. **Anomalies**: Are there anomalies or outliers in GDP or GNI for specific countries or currencies? What might explain these?
+
+8. **Country-Currency Relationship**: Are there patterns or trends linking certain currencies to better economic performance in their respective countries?
+
+9. **Visualization**: Can we create a world map visualization showing GDP and GNI distribution by Country? How does this inform about global economic disparities?
+
+10. **Policy Insights**: Based on the data, what recommendations can be made for countries to improve their economic performance? For instance, should they invest more in specific sectors (e.g., manufacturing vs. agriculture)?
+
+---
+
+## Tasks for Data Scientists and ML Engineers
+1. **Data Cleaning**: Ensure the dataset is clean, with consistent formatting for non-numeric columns.
+2. **Data Exploration**: Perform exploratory data analysis (EDA) on non-numeric columns to understand their structure and distribution.
+3. **Visualization**: Generate compelling visualizations, such as:
+   - Distribution of currencies.
+   - Regional GDP and GNI trends.
+   - Country-level maps for economic indicators.
+4. **Feature Engineering**: Encode non-numeric columns for correlation analysis with numeric indicators.
+5. **Modeling**: Explore relationships between non-numeric attributes and numeric outcomes using machine learning models where appropriate.
+6. **Insight Extraction**: Summarize findings to highlight actionable insights for policymakers.
+
+---
+
+## Expected Outcomes
+- Comprehensive analysis of the non-numeric columns in the dataset.
+- Visualizations to aid understanding of economic trends and disparities.
+- Insights into the impact of categorical variables (e.g., Country, Currency) on numeric indicators (e.g., GDP, GNI).
+- Recommendations for data-driven economic strategies and policies.
+
