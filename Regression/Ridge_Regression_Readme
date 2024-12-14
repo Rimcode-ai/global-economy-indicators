@@ -1,0 +1,47 @@
+# Analysis of Quantitative Economic Indicators in Global Economy Dataset
+
+## Project Definition: Analysis of Numeric Columns in Global Economic Indicators Dataset
+
+### Problem Statement:
+The numeric columns in the dataset represent key economic indicators for multiple countries over time. These include exchange rates, population, GDP, GNI, and sector-wise economic contributions. Understanding the relationships and trends within these numeric attributes can reveal insights into global economic dynamics, sector-specific growth, and cross-country comparisons. The project aims to analyze these numeric columns to derive actionable insights.
+
+### Objective:
+To analyze and interpret the numeric attributes of the dataset to identify trends, correlations, anomalies, and relationships across countries, years, and sectors. The goal is to uncover key drivers of economic performance and provide recommendations for policy, investment, or operational strategies.
+
+---
+
+### Tasks for the Data Scientist and ML Engineer:
+
+Here are 10 guiding questions to address in the analysis:
+
+1. **Global Economic Trends**:  
+   What are the global trends in GDP and GNI over the years? Are there periods of significant growth or recession across most countries?
+
+2. **Correlation Analysis**:  
+   What are the strongest correlations between economic indicators (e.g., GNI, GDP, exports, and imports)? How do these relationships vary by region or income level?
+
+3. **Sector Contributions**:  
+   Which sectors (e.g., agriculture, manufacturing, construction) contribute the most to GDP across different countries? How do these contributions change over time?
+
+4. **Population vs. Economy**:  
+   How does population size relate to GDP and GNI? Are there specific thresholds where population significantly impacts economic performance?
+
+5. **Anomalies in Data**:  
+   Are there any countries with unusually high or low GDP or GNI relative to their population or sectoral outputs? What might explain these anomalies?
+
+6. **Regional Comparisons**:  
+   How do economic indicators vary by region (e.g., developed vs. developing countries)? Can we group countries based on similar economic characteristics using clustering techniques?
+
+7. **Time Series Analysis**:  
+   How do exchange rates (AMA and IMF-based) impact GDP or trade figures over time? Are there identifiable patterns or events that caused significant changes?
+
+8. **Economic Resilience**:  
+   How do countries respond to economic shocks, as seen in changes in inventories, exports, or government expenditures during specific years?
+
+9. **Growth Prediction**:  
+   Can we predict GDP or GNI growth for a country based on its historical data and other numeric indicators like exports, population, and sector contributions?
+
+10. **Visualization and Insights**:  
+    Create visualizations (e.g., heatmaps, line charts, and scatter plots) to illustrate the relationships, trends, and anomalies in the data. What insights can be drawn from these visuals for policy or investment strategies?
+
+---
